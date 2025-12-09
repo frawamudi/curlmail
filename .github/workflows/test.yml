@@ -1,8 +1,11 @@
-stages:
-  - build
+name: Print a Message CI
 
-print_message_job:
-  stage: build
-  script:
-    - echo "Hello, GitLab CI/CD! This is a simple message."
+on: [push]
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Say Hello World
+      run: echo "Hello, GitHub Actions CI!"
