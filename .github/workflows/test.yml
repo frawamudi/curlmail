@@ -1,0 +1,8 @@
+stages:
+  - build
+
+print_message_job:
+  stage: build
+  script:
+    - echo "Hello, GitLab CI/CD! This is a simple message."
+
