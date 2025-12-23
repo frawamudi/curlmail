@@ -1,6 +1,8 @@
 name: Print a Message CI
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
