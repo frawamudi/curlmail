@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - name: Say Hello World
-      run: echo "Hello, GitHub Actions CI!"
+      run: echo "Hello, From GitHub Actions CI!"
