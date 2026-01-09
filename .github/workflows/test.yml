@@ -1,7 +1,7 @@
 name: Print a Message CI
 
 on:
-  push:
+  # push:
   workflow_dispatch:
 
 jobs:
