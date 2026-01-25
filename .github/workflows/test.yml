@@ -1,4 +1,4 @@
-name: Print a Message CI
+name: Testing manual triggering
 
 on:
   # push:
