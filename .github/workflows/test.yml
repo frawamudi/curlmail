@@ -1,4 +1,4 @@
-name: Testing manual triggering 
+name: Testing manual triggering
 
 on:
   # push:
