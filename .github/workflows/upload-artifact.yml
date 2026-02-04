@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - name: Upload artifact
-      run: echo Artifact Uploaded!"
+      run: echo "Artifact Uploaded!"

@@ -12,4 +12,4 @@ jobs:
 
     steps:
     - name: Booking board
-      run: echo Board booked!"
+      run: echo "Board booked!"
