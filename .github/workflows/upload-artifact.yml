@@ -1,0 +1,13 @@
+name: Upload Artifact
+
+on:
+  # push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Upload artifact
+      run: echo Artifact Uploaded!"

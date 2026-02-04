@@ -1,0 +1,15 @@
+name: Board Booking
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Booking board
+      run: echo Board booked!"
