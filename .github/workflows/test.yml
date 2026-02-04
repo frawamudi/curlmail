@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Say Hello World to Ci
+    - name: Testing
       run: echo "Hello, GitHub Actions!"
